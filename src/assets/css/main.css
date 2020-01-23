@@ -1,0 +1,20 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+}
+.content-title {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+}
+.content-title--color {
+	color: #2DC4EA !important;
+}
+.xs-divider {
+	margin: 20px 0;
+	padding: 10px;
+}
