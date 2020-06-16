@@ -222,6 +222,24 @@ nav {
 .heading-laptop--img{
 	margin-top: -180px;
 }
+@media only screen and (min-width: 992px){
+	nav {
+		height: 40px;
+	} 
+}
+@media only screen and (min-width: 768px){
+	.header-text {
+		padding-top: 35px;
+	}
+	.header-text h1 {
+		font-size: 35px;
+	}
+}
+@media only screen and (max-width: 991px){
+	nav {
+		background: #fff;
+	}
+}
 @media only screen and (max-width: 767px){
 	.header-text h1 {
 		font-size: 40px;
@@ -231,16 +249,6 @@ nav {
 	}
 	.header-text {
 		padding-top: 100px;
-	}
-}
-@media only screen and (min-width: 992px){
-	nav {
-		height: 40px;
-	} 
-}
-@media only screen and (max-width: 991px){
-	nav {
-		background: #fff;
 	}
 }
 </style>
